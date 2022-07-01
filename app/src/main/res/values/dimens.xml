@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material Text Size -->
+    <dimen name="material_text_button">14sp</dimen>
+    <dimen name="material_text_menu">14sp</dimen>
+    <dimen name="material_text_caption">12sp</dimen>
+    <dimen name="material_text_body1">14sp</dimen>
+    <dimen name="material_text_body2">13sp</dimen>
+    <dimen name="material_text_subhead">16sp</dimen>
+    <dimen name="material_text_title">20sp</dimen>
+    <dimen name="material_text_headline">24sp</dimen>
+    <dimen name="material_text_display1">34sp</dimen>
+    <dimen name="material_text_display2">45sp</dimen>
+    <dimen name="material_text_display3">56sp</dimen>
+    <dimen name="material_text_display4">112sp</dimen>
+
+
+    <!-- Font sizes -->
+    <dimen name="text_size_very_tiny">10sp</dimen>
+    <dimen name="text_size_tiny">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_xlarge">34sp</dimen>
+    <dimen name="text_size_xxlarge">45sp</dimen>
+    <dimen name="text_size_xxxlarge">56sp</dimen>
+
+
+    <!-- Margins & Padding Size -->
+    <dimen name="margin_padding_size_tiny">4dp</dimen>
+    <dimen name="margin_padding_size_small">8dp</dimen>
+    <dimen name="margin_padding_size_medium">16dp</dimen>
+    <dimen name="margin_padding_size_large">24dp</dimen>
+    <dimen name="margin_padding_size_xlarge">32dp</dimen>
+    <dimen name="margin_padding_size_xxlarge">40dp</dimen>
+    <dimen name="margin_padding_size_very_large">50dp</dimen>
+
+
+    <!-- Radius -->
+    <dimen name="radius_small">7dp</dimen>
+    <dimen name="radius_medium">12dp</dimen>
+    <dimen name="radius_large">21dp</dimen>
+
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_margin_size">4dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+
+
+
+    <dimen name="banner_height">120dp</dimen>
+    <dimen name="category_banner_height">200dp</dimen>
+</resources>

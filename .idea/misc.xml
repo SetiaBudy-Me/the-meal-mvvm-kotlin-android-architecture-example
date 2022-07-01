@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/activity_main.xml" value="0.35833333333333334" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/activity_meal_category.xml" value="0.35833333333333334" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/activity_meal_details.xml" value="0.5" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/item_category.xml" value="0.3625" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/item_layout.xml" value="0.3625" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/item_meal.xml" value="0.3625" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/layout_loading_page.xml" value="0.3625" />
+        <entry key="..\:/- My Works/- Everspin/Android Studio/The Meal/the-meal/app/src/main/res/layout/layout_search.xml" value="0.3614583333333333" />
+        <entry key="..\:/- My Works/- SetiaBudy-Me/Android Studio/The Meal MVVM Kotlin Android Architecture Example/the-meal-mvvm-kotlin-android-architecture-example/app/src/main/res/layout/activity_main.xml" value="0.35833333333333334" />
+        <entry key="..\:/- My Works/- SetiaBudy-Me/Android Studio/The Meal MVVM Kotlin Android Architecture Example/the-meal-mvvm-kotlin-android-architecture-example/app/src/main/res/layout/activity_meal_details.xml" value="0.35833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

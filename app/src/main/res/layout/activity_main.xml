@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/WidgetToolbar"
+        android:id="@+id/toolbar"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:id="@+id/tvToolbarTitle"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey" />
+
+    <include
+        layout="@layout/layout_loading_page"
+        android:id="@+id/llLoaderPage"
+        android:visibility="visible"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/img_banner"
+                android:adjustViewBounds="true"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_size_medium"
+                android:paddingTop="@dimen/text_size_small"
+                android:paddingStart="@dimen/margin_padding_size_medium"
+                android:paddingEnd="@dimen/margin_padding_size_medium"
+                android:paddingBottom="@dimen/text_size_small"
+                android:text="@string/category" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingStart="@dimen/margin_padding_size_medium"
+                android:paddingEnd="@dimen/margin_padding_size_medium" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
